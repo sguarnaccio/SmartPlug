@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">SmartPlug</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="nav_statistics">Statistics</string>
+    <string name="nav_settings">Setings</string>
+    <string name="nav_account">Account</string>
+    <string name="nav_logout">Logout</string>
+    <string name="nav_profile">Profile</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nav_devices">Devices</string>
+    <string name="title_deviceactivity_list">Items</string>
+    <string name="title_deviceactivity_detail">DeviceActivity Detail</string>
+    <string name="title_activity_device_details">DeviceDetailsActivity</string>
+    <string name="status_text" formatted="true">
+        "Power Consumption: %1$.2f kW\n\n"
+
+        "Voltage: %2$.2f V\n\n"
+        "Current: %3$.2f A\n\n"
+        "CosPhi: %4$.2f \n\n"
+        "Switch Status: %5$s \n\n"
+
+    </string>
+    <string name="device_settings_ssid">SSID:</string>
+    <string name="device_settings_password">Password:</string>
+    <string name="device_settings_devicename">Device Name:</string>
+    <string name="device_settings_devicehouselocation">House Location:</string>
+    <string name="device_settings_savebutton">Save Config</string>
+    <string name="device_settings_deletedevice">Delete Device</string>
+    <string name="device_settings_powerthreshold">Power Threshold (kW):</string>
+    <string name="device_settings_sendnotifications">Send Notifications</string>
+    <string name="device_settings_openSwitch">Hora de Desconexion:</string>
+    <string name="device_settings_closeSwitch">Hora de Conexion:</string>
+    <string name="device_settings_enabletimer">Set Up Timer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="server">Bluemix</string>
+    <string name="sendconfig_functio">SendConfig</string>
+
+</resources>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.sebastian.smartplug.activities.DeviceDetailsActivity"
+    tools:showIn="@layout/activity_device_details">
+
+
+    <RelativeLayout
+        android:id="@+id/lyStatus"
+        android:layout_width="match_parent"
+        android:layout_height="900dp">
+
+        <TextView
+            android:id="@+id/tvStatus"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="@string/status_text" />
+
+        <RelativeLayout
+            android:id="@+id/rlSettingsoptions"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="256dp"
+            android:layout_alignTop="@+id/tvStatus"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <ImageButton
+                android:id="@+id/ibDeviceSettings"
+                android:layout_width="@dimen/device_settings_buttons"
+                android:layout_height="@dimen/device_settings_buttons"
+                android:layout_marginLeft="35dp"
+                app:srcCompat="@drawable/ic_menu_manage"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <ImageButton
+                android:id="@+id/ibSwitch"
+                android:layout_width="@dimen/device_settings_buttons"
+                android:layout_height="@dimen/device_settings_buttons"
+                android:layout_marginLeft="@dimen/device_settings_buttons_spacing"
+                app:srcCompat="@drawable/ic_power"
+                android:backgroundTint="@color/colorPrimary"
+                android:layout_alignTop="@+id/ibDeviceSettings"
+                android:layout_toRightOf="@+id/ibDeviceSettings"
+                android:layout_toEndOf="@+id/ibDeviceSettings" />
+
+            <ImageButton
+                android:id="@+id/ibStatistics"
+                android:layout_width="@dimen/device_settings_buttons"
+                android:layout_height="@dimen/device_settings_buttons"
+                android:layout_marginLeft="@dimen/device_settings_buttons_spacing"
+                app:srcCompat="@drawable/ic_menu_statistics"
+                android:backgroundTint="@color/colorPrimary"
+                android:layout_alignTop="@+id/ibSwitch"
+                android:layout_toRightOf="@+id/ibSwitch"
+                android:layout_toEndOf="@+id/ibSwitch" />
+
+            <ImageButton
+                android:id="@+id/ibTimer"
+                android:layout_width="@dimen/device_settings_buttons"
+                android:layout_height="@dimen/device_settings_buttons"
+                android:layout_marginLeft="@dimen/device_settings_buttons_spacing"
+                app:srcCompat="@drawable/ic_clock"
+                android:backgroundTint="@color/colorPrimary"
+                android:layout_alignTop="@+id/ibStatistics"
+                android:layout_toRightOf="@+id/ibStatistics"
+                android:layout_toEndOf="@+id/ibStatistics" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/rlSettings"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/rlSettingsoptions"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</android.support.v4.widget.NestedScrollView>

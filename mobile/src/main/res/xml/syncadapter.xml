@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sync-adapter xmlns:android="http://schemas.android.com/apk/res/android"
+    android:contentAuthority="SebastianGuarnaccio.SmartPlug"
+    android:accountType="Generic"
+    android:userVisible="false"
+    android:supportsUploading="false"
+    android:allowParallelSyncs="false"
+    android:isAlwaysSyncable="true"
+    />
+
+    <!-- accountType es el mismo que declare en XML del authenticator y en el accountTypoe cuando seteo la cuenta  -->
+    <!-- contentAuthority es el mismo que declare para el provider en el manifiest y el q uso para setear la base de datos y el account  -->

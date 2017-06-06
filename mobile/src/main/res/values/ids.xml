@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="ssid_text" type="id">300</item>
+    <item name="ssid_edit" type="id">301</item>
+    <item name="password_text" type="id">302</item>
+    <item name="password_edit" type="id">303</item>
+    <item name="deviename_text" type="id">304</item>
+    <item name="devicename_edit" type="id">305</item>
+    <item name="devicelocation_text" type="id">306</item>
+    <item name="devicelocation_edit" type="id">307</item>
+    <item name="saveconfig_button" type="id">308</item>
+    <item name="deletedevice_button" type="id">309</item>
+    <item name="powerThreshold_text" type="id">310</item>
+    <item name="editText_powerThreshold_edit" type="id">311</item>
+    <item name="sendNotifications_checkBox" type="id">312</item>
+    <item name="openswitch_text" type="id">313</item>
+    <item name="openswitch_edit" type="id">314</item>
+    <item name="closeswitch_text" type="id">315</item>
+    <item name="closeswitch_edit" type="id">316</item>
+    <item name="enableTimer_checkBox" type="id">317</item>
+</resources>
